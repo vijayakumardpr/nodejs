@@ -11,6 +11,6 @@ const server = http.createServer((request, response) => {
 server.listen(3300)
 
 
-// const { area } = require('./circle')
+const { area } = require('./circle')
 
-// console.log(area(5))
+console.log(area(5))
